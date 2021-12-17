@@ -40,3 +40,4 @@ if (mysqli_num_rows($result) > 0) {
 <?php
 mysqli_free_result($result);
 mysqli_close($iConn);
+include 'includes/footer.php';

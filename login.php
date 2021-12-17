@@ -8,12 +8,12 @@ include 'includes/header-form.php';
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
         <fieldset>
             <label for="username">Username</label>
-            <input type="text" name="username" value="<?php if (isset($_POST['username'])) {
+            <input id="username" type="text" name="username" value="<?php if (isset($_POST['username'])) {
     echo $_POST['username'];
 }
 ?>">
             <label for="password">Password</label>
-            <input type="password" name="password">
+            <input id="password" type="password" name="password">
             <button type="submit" class="btn" name="login_user">Login</button>
             <button type="button"
                 onclick="window.location.href='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' ">Reset</button>

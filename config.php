@@ -122,7 +122,7 @@ switch (THIS_PAGE) {
         $headline = 'Welcome to my Store!';
         break;
     case 'songs.php':
-        $title = 'My Songss';
+        $title = 'My Songs';
         $body = 'songs inner';
         $headline = 'Welcome to my Favorite Songs!';
         break;

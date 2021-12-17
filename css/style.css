@@ -140,27 +140,9 @@ html {
 /* END ABOUT */
 
 /* MUSIC PAGE */
-.songs ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin: 10px auto;
-}
-.songs li {
-  background: url("../images/albumimage.jpg");
-  background-size: contain;
-  background-position: center;
-  height: 300px;
-  width: 300px;
-  margin: 20px auto;
-  border: 3px solid black;
-  border-radius: 5px;
-  padding-top: 50px;
-}
-.songs a {
+.songs {
+  background: rgb(71, 14, 71);
   color: white;
-  text-decoration: none;
 }
 /* END MUSIC/VIDEO PAGE */
 
@@ -247,6 +229,22 @@ h3 {
 }
 
 /* END FORM */
+
+/* FOOTER */
+footer {
+  clear: both;
+}
+footer ul {
+  width: 1140px;
+  margin: 20px auto;
+  padding: 20px;
+}
+footer li {
+  float: left;
+  margin-right: 30px;
+  list-style-type: none;
+}
+/* END FOOTER */
 /* WIDESCREEN FORMATTING */
 @media screen and (min-width: 3440px) {
   .home {
