@@ -1,0 +1,273 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+aside {
+  margin: 20px auto;
+}
+
+html {
+  background: grey;
+  margin: 20px auto;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Style the navbar */
+#navbar {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+#navbar ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+#navbar li {
+  display: inline-block;
+  margin: 2px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: orange;
+  border-radius: 5%;
+}
+#navbar a {
+  text-decoration: none;
+}
+/* END NAVBAR */
+
+#hero {
+  height: 300px;
+  background: green;
+  margin: 15px auto;
+  border-radius: 5px;
+}
+
+#headline {
+  text-align: right;
+  color: aliceblue;
+  margin: 15px;
+}
+#home-main {
+  margin: 20px auto;
+}
+.home {
+  background: url(../images/background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  overflow: hidden;
+}
+.active {
+  color: green;
+}
+
+.center {
+  position: absolute;
+  top: 40%;
+  width: 80%;
+  height: 200px;
+  margin-top: -50px;
+  right: 0;
+  left: 0;
+  margin: 20px auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+}
+.bottom {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  color: aliceblue;
+}
+/* END HOME PAGE */
+
+#wrapper {
+  width: 1140px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.welcome-logout
+
+/* ABOUT PAGE */
+.about {
+  background: url(../images/background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  overflow: hidden;
+}
+
+.about-info {
+  margin: 15px;
+  letter-spacing: 3px;
+  background: rgba(0, 128, 0, 0.287);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.pictures ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.pictures a {
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+/* END ABOUT */
+
+/* MUSIC PAGE */
+.songs ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 10px auto;
+}
+.songs li {
+  background: url("../images/albumimage.jpg");
+  background-size: contain;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding-top: 50px;
+}
+.songs a {
+  color: white;
+  text-decoration: none;
+}
+/* END MUSIC/VIDEO PAGE */
+
+/* SONG VIEW */
+.image {
+  width: 500px;
+  height: 600px;
+  border: 1px solid black;
+}
+.song-main {
+  margin: 20px auto;
+}
+/* END SONG VIEW */
+
+/* FORM */
+
+textarea {
+  resize: none;
+  display: block;
+  margin: 0 auto;
+}
+
+.success {
+  float: left;
+  padding: 10px;
+  border: 1px solid brown;
+}
+
+.welcome-logout {
+  float: right;
+  padding: 10px;
+  border: 1px solid brown;
+  color: whitesmoke;
+}
+
+.welcome-logout a {
+  text-align: center;
+  color: whitesmoke;
+}
+
+#wrapper {
+  clear: both;
+  width: 940px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  padding: 10px;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1,
+h3 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.block {
+  display: block;
+  text-align: center;
+  font-style: italic;
+}
+
+.error {
+  color: red;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+/* END FORM */
+/* WIDESCREEN FORMATTING */
+@media screen and (min-width: 3440px) {
+  .home {
+    background: black;
+  }
+
+  #navbar ul {
+    list-style-type: none;
+    width: 100%;
+  }
+
+  #navbar li {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5%;
+    text-align: right;
+  }
+
+  #navbar {
+    bottom: 0;
+    margin: 20px auto;
+  }
+}
