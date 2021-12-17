@@ -53,6 +53,7 @@ if (isset($_SESSION['username'])): ?>
         <h2><a style="color:cornflowerblue;" href="https://github.com/DevonDeVaughnn/IT_261_Final">GitHub
                 Link</a></h2>
     </aside>
-    <?php include 'includes/footer.php';?>
+
 
 </div>
+<?php include 'includes/footer.php';?>
